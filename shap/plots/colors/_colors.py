@@ -21,8 +21,8 @@ try:
     l_mid = 40.
     red_lch = [54., 90., 0.35470565 + 2* np.pi]
     gray_lch = [55., 0., 0.]
-    blue_rgb = lch2rgb(blue_lch)
-    red_rgb = lch2rgb(red_lch)
+    blue_rgb = np.array([.698, .133, .133]) #red #lch2rgb(blue_lch)
+    red_rgb = np.array([.196, .804, .196]) #green #lch2rgb(red_lch)
     gray_rgb = lch2rgb(gray_lch)
     white_rgb = np.array([1.,1.,1.])
     
